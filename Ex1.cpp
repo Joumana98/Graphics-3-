@@ -35,7 +35,10 @@ int main()
 
     Simple_window win{Point{20,100},800,600,"My canvas"};
     Smiley face1{Point{200,200},100};
+    Frowny face2 {Point{500,100},100};
 
+    win.attach(face1);
+    win.attach(face2);
     win.wait_for_button();
 
     return 0;
