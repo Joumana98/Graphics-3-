@@ -32,7 +32,7 @@ class Smiley_hat: public Smiley
 {
 
 public:
-    Smiley(Pint c, int r);
+    Smiley(Point c, int r);
     void draw_lines const();
 
 private:
