@@ -60,7 +60,7 @@ void Smiley::draw_lines() const
 {
      Circle::draw_lines();
      eyes.draw_lines();
-     mounth.draw_lines();
+     mouth.draw_lines();
 
 }
 
@@ -78,6 +78,6 @@ void Frowny::draw_lines() const
 {
      Circle::draw_lines();
      eyes.draw_lines();
-     mounth.draw_lines();
+     mouth.draw_lines();
 
 }
