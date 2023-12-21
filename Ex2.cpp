@@ -29,7 +29,7 @@ int main()
 
 Striped_rectangle::Striped_rectangle(int w, int l,int s): Rectangle{w,l}
 {
-    if (s<0 || s<l)
+    if (s<0 || s>l)
        error("Invalid strips width");
     else
        sw=s;
